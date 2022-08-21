@@ -6,7 +6,7 @@
           <router-link to="/teams">Teams</router-link>
         </li>
         <li>
-          <router-link>Users</router-link>
+          <router-link to="/users">Users</router-link>
         </li>
       </ul>
     </nav>
