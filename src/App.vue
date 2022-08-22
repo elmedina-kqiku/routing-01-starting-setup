@@ -1,10 +1,10 @@
 <template>
-  <the-navigation ></the-navigation>
+  <the-navigation></the-navigation>
   <main>
     <router-view></router-view>
   </main>
   <footer>
-    <router-view name="footer"> </router-view>
+    <router-view name="footer"></router-view>
   </footer>
 </template>
 
@@ -13,8 +13,7 @@ import TheNavigation from './components/nav/TheNavigation.vue';
 
 export default {
   components: {
-    TheNavigation,
-   
+    TheNavigation
   },
   data() {
     return {
@@ -37,8 +36,7 @@ export default {
       teams: this.teams,
       users: this.users,
     };
-  },
- 
+  }
 };
 </script>
 
